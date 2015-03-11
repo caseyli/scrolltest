@@ -1,0 +1,45 @@
+// Place all the styles related to the Pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.content {
+  position:fixed;
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  background:#AD1637;
+  text-align:center;
+
+  .caption {
+    margin-top:150px;
+    font-size:2em;
+    font-family: "Oswald";
+    color:#ddd;
+  }
+
+  .scroll-position {
+    color:white;
+    font-size:8em;
+    font-family: "Oswald";
+  }
+
+  .scroll-bar-container {
+    width:80%;
+    margin:0 auto;
+    height:20px;
+    background:black;
+
+    .scroll-bar {
+      width:0%;
+      height:100%;
+      background:white;
+    }
+  }
+}
+
+
+
+.scrollbox {
+  height:8000px;
+}
